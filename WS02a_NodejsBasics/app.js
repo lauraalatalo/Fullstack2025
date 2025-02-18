@@ -2,6 +2,7 @@ const maths=require('./math');
 const stringUtils = require('./stringUtils');
 const dateUtils = require('./dateUtils');
 
+console.log("Hello World!");
 console.log("\nInside maths variable : ");
 console.log(maths);
 console.log("\nSum is " +maths.add(7,7));
