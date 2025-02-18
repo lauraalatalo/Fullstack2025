@@ -1,7 +1,9 @@
-export function add(a, b) {
+function add(a, b) {
     return a + b;
 }
 
-export function substrack(a, b) {
+function subtract(a, b) {
     return a - b;
 }
+
+module.exports = { add, subtract };
