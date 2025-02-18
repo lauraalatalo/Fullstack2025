@@ -1,1 +1,1 @@
-#Tämä on Laurean Fullstack 2025 kansio.
+#Täältä löytyy Lauran Fullstack-tehtävät Laurean Fullstack-kurssille.
