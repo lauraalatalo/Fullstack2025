@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EJS with Partials</title>
+</head>
+<body>
+
+    <%- include('partials/_header') %>
+
+    <!-- Exercise 2-->
+    <h1><%= message %></h1>
+    
+    <!-- Exercise 4-->
+    <% if (isLoggedIn) { %>
+      <p>Olet kirjautunut sisään ✅</p>
+    <% } else { %>
+      <p>Et ole kirjautunut sisään ❌</p>
+    <% } %>
+    
+    <!-- Exercise 5-->
+    <ul>
+      <% users.forEach(function(user) { %>
+        <li>
+          <strong><%= user.name %></strong> – <%= user.email %>
+        </li>
+      <% }) %>
+    </ul>
+    
+    <%- include('partials/_footer') %>
+    
+    
+
+</body>
+</html>
